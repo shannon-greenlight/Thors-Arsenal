@@ -629,7 +629,7 @@ void process_cmd(String in_str)
 		put_group(int_param, get_active_time_index());
 		break;
 	case 's':
-		ui.terminal_debug("Here's the scmd: " + String(scmd) + " and here's the subcmd: " + subcmd + " and here's the sub_int_param: " + String(sub_int_param));
+		// ui.terminal_debug("Here's the scmd: " + String(scmd) + " and here's the subcmd: " + subcmd + " and here's the sub_int_param: " + String(sub_int_param));
 #ifdef FAFNIRS_FIRE
 		switch (scmd)
 		{
