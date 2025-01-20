@@ -1,0 +1,7 @@
+#ifndef SUPER_GLOBALS_H
+#define SUPER_GLOBALS_H
+
+#define NOT_AVAILABLE "N/A"
+#define NUM_WAVEFORMS 15
+
+#endif // SUPER_GLOBALS_H

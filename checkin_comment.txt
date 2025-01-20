@@ -1,0 +1,469 @@
+ 
+Check-in comment for thors_arsenal-1 
+init check in 
+Check-in comment for thors_arsenal-2 
+Safety.
+ 
+Check-in comment for thors_arsenal-3 
+Makes new jacks fit.
+ 
+Check-in comment for thors_arsenal-4 
+Safety.
+ 
+Check-in comment for thors_arsenal-5 
+Safety.
+ 
+Check-in comment for thors_arsenal-6 
+Work on panel.
+ 
+Check-in comment for thors_arsenal-7 
+Adds memory module. Starts laying traces.
+ 
+Check-in comment for thors_arsenal-8 
+Safety.
+ 
+Check-in comment for thors_arsenal-9 
+Before ripping up tracks.
+ 
+Check-in comment for thors_arsenal-10 
+Fresh start.
+ 
+Check-in comment for thors_arsenal-11 
+Safety.
+ 
+Check-in comment for thors_arsenal-12 
+Starting to add op amp stuff.
+ 
+Check-in comment for thors_arsenal-13 
+Fixes jack symbols. More layout.
+ 
+Check-in comment for thors_arsenal-14 
+Safety.
+ 
+Check-in comment for thors_arsenal-15 
+Out0 and Out1 laid out.
+ 
+Check-in comment for thors_arsenal-16 
+This time for sure!
+ 
+Check-in comment for thors_arsenal-17 
+New USB.
+ 
+Check-in comment for thors_arsenal-18 
+Safety.
+ 
+Check-in comment for thors_arsenal-19 
+Safety.
+ 
+Check-in comment for thors_arsenal-20 
+Safety.
+ 
+Check-in comment for thors_arsenal-21 
+Adds CV pickoff.
+ 
+Check-in comment for thors_arsenal-22 
+Safety.
+ 
+Check-in comment for thors_arsenal-23 
+Wires up analog switch controls.
+ 
+Check-in comment for thors_arsenal-24 
+Safety.
+ 
+Check-in comment for thors_arsenal-25 
+Safety.
+ 
+Check-in comment for thors_arsenal-26 
+Ready for the rest of the op amp stuff.
+ 
+Check-in comment for thors_arsenal-27 
+Safety.
+ 
+Check-in comment for thors_arsenal-28 
+Safety.
+ 
+Check-in comment for thors_arsenal-29 
+Safety.
+ 
+Check-in comment for thors_arsenal-30 
+Zero errors. Four warnings.
+ 
+Check-in comment for thors_arsenal-31 
+Zero errors. Zero warnings.
+ 
+Check-in comment for thors_arsenal-32 
+New USB panel cutout.
+ 
+Check-in comment for thors_arsenal-33 
+Safety.
+ 
+Check-in comment for thors_arsenal-34 
+Adds hardware variant.
+ 
+Check-in comment for thors_arsenal-35 
+Safety.
+ 
+Check-in comment for thors_arsenal-36 
+Before adding offset adj pots.
+ 
+Check-in comment for thors_arsenal-37 
+Safety.
+ 
+Check-in comment for thors_arsenal-38 
+Adds offset pots.
+ 
+Check-in comment for thors_arsenal-39 
+Changes diode footprints to sod323.
+ 
+Check-in comment for thors_arsenal-40 
+Fixed inductor footprint.
+ 
+Check-in comment for thors_arsenal-41 
+Moves offset adjust pots that were touching jacks.
+ 
+Check-in comment for thors_arsenal-42 
+Fixes xtal footprint.
+ 
+Check-in comment for thors_arsenal-43 
+Re-laid out 3.3V power circuit.
+ 
+Check-in comment for thors_arsenal-44 
+Grounding improvements.
+ 
+Check-in comment for thors_arsenal-45 
+Moves ground plane to yellow layer, +12 to green.
+ 
+Check-in comment for thors_arsenal-46 
+Safety.
+ 
+Check-in comment for thors_arsenal-47 
+Better ground plane.
+ 
+Check-in comment for thors_arsenal-48 
+Safety.
+ 
+Check-in comment for thors_arsenal-49 
+Improves +12V plane.
+ 
+Check-in comment for thors_arsenal-50 
+Safety.
+ 
+Check-in comment for thors_arsenal-51 
+Improves +3.3V plane.
+ 
+Check-in comment for thors_arsenal-52 
+Adds caps to rp2040.
+ 
+Check-in comment for thors_arsenal-53 
+Safety.
+ 
+Check-in comment for thors_arsenal-54 
+Adds SWCLK pullup.
+ 
+Check-in comment for thors_arsenal-55 
+Safety.
+ 
+Check-in comment for thors_arsenal-56 
+Adds RGB LED.
+ 
+Check-in comment for thors_arsenal-57 
+Adds new panel.
+ 
+Check-in comment for thors_arsenal-58 
+Safety.
+ 
+Check-in comment for thors_arsenal-59 
+Sent to China. 9/4/24
+ 
+Check-in comment for thors_arsenal-60 
+Safety before major via size change.
+ 
+Check-in comment for thors_arsenal-61
+Safety. 
+ 
+Check-in comment for thors_arsenal-62 
+Changed all vias to .45/.20
+ 
+Check-in comment for thors_arsenal-63 
+Adds code folder back.
+ 
+Check-in comment for thors_arsenal-64 
+Code backup.
+ 
+Check-in comment for thors_arsenal-65 
+Removes WiFi.
+ 
+Check-in comment for thors_arsenal-66 
+Safety.
+ 
+Check-in comment for thors_arsenal-67 
+Deletes nina_pins.h, .cpp. Compiles!
+ 
+Check-in comment for thors_arsenal-68 
+Made WIFI_INSTALLED define.
+ 
+Check-in comment for thors_arsenal-69 
+Adds R and C to USB shield.
+ 
+Check-in comment for thors_arsenal-70 
+Safety.
+ 
+Check-in comment for thors_arsenal-71 
+Updates make.bat to compile for either Greenface or Arduino hardware.
+ 
+Check-in comment for thors_arsenal-72 
+Adds pullup to Flash CS.
+ 
+Check-in comment for thors_arsenal-73 
+Fixed solder mask zones on pane. (new_panel)
+ 
+Check-in comment for thors_arsenal-74 
+Moving and removing LEDs.
+Safety.
+ 
+Check-in comment for thors_arsenal-75 
+Finished LEDs.
+ 
+Check-in comment for thors_arsenal-76 
+Before switching input and output ranges to be -10 -> 10. 
+ 
+Check-in comment for thors_arsenal-77 
+Saved missing file.
+ 
+Check-in comment for thors_arsenal-78 
+Mostly done.
+ 
+Check-in comment for thors_arsenal-79 
+Safety.
+ 
+Check-in comment for thors_arsenal-80 
+Changes trig led resistors to 330 ohms.
+ 
+Check-in comment for thors_arsenal-81 
+Changes flash part due to availability.
+ 
+Check-in comment for thors_arsenal-82 
+Safety.
+ 
+Check-in comment for thors_arsenal-83 
+Adds LED driver.
+ 
+Check-in comment for thors_arsenal-84 
+Moves USB.
+ 
+Check-in comment for thors_arsenal-85 
+Safety.
+ 
+Check-in comment for thors_arsenal-86 
+Adjustments to panel.
+ 
+Check-in comment for thors_arsenal-87 
+Uses recommended circuit for rotary encoder.
+ 
+Check-in comment for thors_arsenal-88 
+Adds JIC jumpers to new rotary resistors.
+ 
+Check-in comment for thors_arsenal-89 
+Adds test points.
+ 
+Check-in comment for thors_arsenal-90 
+More test points.
+ 
+Check-in comment for thors_arsenal-91 
+Uses correct 3d models for test points.
+ 
+Check-in comment for thors_arsenal-92 
+Fixes positions.
+ 
+Check-in comment for thors_arsenal-93 
+New power inductor. Track cleanup.
+ 
+Check-in comment for thors_arsenal-94 
+Changes +/-20mV to +/-35mV
+ 
+Check-in comment for thors_arsenal-95 
+Work on ground plane.
+ 
+Check-in comment for thors_arsenal-96 
+More Work on ground plane.
+ 
+Check-in comment for thors_arsenal-97 
+Safety.
+ 
+Check-in comment for thors_arsenal-98 
+Work on other planes.
+ 
+Check-in comment for thors_arsenal-99 
+Sent to JLCPCB. W202409221038709
+Rev 0.2
+ 
+Check-in comment for thors_arsenal-100 
+Uses new jack footprint.
+ 
+Check-in comment for thors_arsenal-101 
+Code reorganization around output ranger.
+ 
+Check-in comment for thors_arsenal-102 
+More reorganization. Changes Range names.
+ 
+Check-in comment for thors_arsenal-103 
+More reorganization. Creates set_waveform_message
+ 
+Check-in comment for thors_arsenal-104 
+Output ranger changes to accomodate new board.
+Adds +/-10V range.
+Adds debug to = remote command.
+Changes set_waveform to get_waveform.
+ 
+Check-in comment for thors_arsenal-105 
+More reorganization, renames files. (removes BONK_)
+ 
+Check-in comment for thors_arsenal-106 
+Work on make.bat and led monitor in loop()
+ 
+Check-in comment for thors_arsenal-107 
+Changed name of source dir from thors_arsenal to src.
+ 
+Check-in comment for thors_arsenal-108 
+Reorganizes src.ino.
+ 
+Check-in comment for thors_arsenal-109 
+Safety.
+ 
+Check-in comment for thors_arsenal-110 
+Uses Main_fxns singleton now.
+ 
+Check-in comment for thors_arsenal-111 
+Adds serviceLEDs to Main_fxns.
+Adds yellow LED to board.
+ 
+Check-in comment for thors_arsenal-112 
+Safety.
+ 
+Check-in comment for thors_arsenal-113 
+Keyboard works now. And RGB LEDs.
+ 
+Check-in comment for thors_arsenal-114 
+Looks like it all works now!
+Safety.
+ 
+Check-in comment for thors_arsenal-115 
+Calibrate is inpputs only for Thors. Outputs are calibrated by default now for Thor.
+ 
+Check-in comment for thors_arsenal-116 
+Safety.
+ 
+Check-in comment for thors_arsenal-117 
+Fixes to set_output_range and update_idle_value
+ 
+Check-in comment for thors_arsenal-118 
+Cleanup of ranger code.
+ 
+Check-in comment for thors_arsenal-119 
+Changes to trigger LEDs. 
+ 
+Check-in comment for thors_arsenal-120 
+New USB connector.
+ 
+Check-in comment for thors_arsenal-121 
+Relaid out trimmers.
+ 
+Check-in comment for thors_arsenal-122 
+Rearrange schematic. Now use 16mV instead of 35mV.
+ 
+Check-in comment for thors_arsenal-123 
+Safety.
+ 
+Check-in comment for thors_arsenal-124 
+Removed bogus resistors from encoder circuit.
+ 
+Check-in comment for thors_arsenal-125 
+Moved USB connector down 3mm.
+ 
+Check-in comment for thors_arsenal-126 
+Sets UI output range to +/-10V instead of 10.666V.
+Safety.
+ 
+Check-in comment for thors_arsenal-127 
+Made ref waveform bipolar. Need to check other waves than sine.
+ 
+Check-in comment for thors_arsenal-128 
+Fixes all waveforms for new method.
+ 
+Check-in comment for thors_arsenal-129 
+Fixes bounce repeat.
+ 
+Check-in comment for thors_arsenal-130 
+Bounce works now.
+ 
+Check-in comment for thors_arsenal-131 
+Bounce cleanup.
+Safety.
+ 
+Check-in comment for thors_arsenal-132 
+More bounce cleanup. Gets rid of bounce_triggered
+ 
+Check-in comment for thors_arsenal-133 
+Now bounce repeat cancels on second trigger.
+Needs cleanup.
+ 
+Check-in comment for thors_arsenal-134 
+Uses triggers array.
+Needs cleanup.
+ 
+Check-in comment for thors_arsenal-135 
+Bounce clean.
+ 
+Check-in comment for thors_arsenal-136 
+Adds send_msg for sending only the system message.
+ 
+Check-in comment for thors_arsenal-137 
+Work on send_USB. separate out global vars.
+ 
+Check-in comment for thors_arsenal-138 
+Moving to illuminated encoder.
+Updated panel.
+ 
+Check-in comment for thors_arsenal-139 
+Finish encoder.
+ 
+Check-in comment for thors_arsenal-140 
+Adds circuitry for red led in encoder.
+ 
+Check-in comment for thors_arsenal-141 
+Safety.
+ 
+Check-in comment for thors_arsenal-142 
+Implements short reply. For = and e commands.
+ 
+Check-in comment for thors_arsenal-143 
+Removed CV triggers. They didn't make sense.
+ 
+Check-in comment for thors_arsenal-144 
+Updates to manual.
+When changing scale and offset, it only applys params, and not re-calcs the wave.
+Work on Toggle. Looks good. Cleanup needed.
+ 
+Check-in comment for thors_arsenal-145 
+Changes to app, adds images to dev. Updates to manual re remote commands.
+ 
+Check-in comment for thors_arsenal-146 
+Safety.
+ 
+Check-in comment for thors_arsenal-147 
+Getting changes from Fafnir.
+Safety.
+ 
+Check-in comment for thors_arsenal-148 
+Prior to new 3.3V power.
+ 
+Check-in comment for thors_arsenal-149 
+New 3.3V power added.
+ 
+Check-in comment for thors_arsenal-150 
+Adds filter caps to output op amps.
+ 
+Check-in comment for thors_arsenal-151
+Safety before Git.
+
+
