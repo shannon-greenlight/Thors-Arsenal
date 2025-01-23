@@ -51,8 +51,8 @@ The code supports both Thor's Arsenal and the Bonkulator. Also several portions 
 ## Directory Structure
 
 - **bonk_out** contains output of latest Bonkulator compile
-  -- **\_release** contains latest Bonkulator release
+    -- **\_release** contains latest Bonkulator release
 - **thors_out** contains output of latest Thor's Arsenal compile
-  -- **\_release** contains latest Thor's Arsenal release
+    -- **\_release** contains latest Thor's Arsenal release
 - **releases** contains all of the software releases in zipped form.
 - **src** contains the source code.
