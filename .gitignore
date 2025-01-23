@@ -64,6 +64,8 @@ spice/*.raw
 *.sch-bak
 *.lck
 
+checkin_comment.txt
+
 *.bat
 *.csv
 
