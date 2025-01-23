@@ -20,7 +20,7 @@ foreach ($port in $boards.detected_ports) {
     
     # Check conditions
     if ($vid -eq '0x2341') {
-        Write-Output "Spankulator found on $comPort"
+        Write-Output "Bonkulator found on $comPort"
     } elseif ($vid -eq '0x5591' -and $productId -eq '0x0001') {
         Write-Output "Thor's Arsenal found on $comPort"
     } elseif ($vid -eq '0x5591' -and $productId -eq '0x0002') {
