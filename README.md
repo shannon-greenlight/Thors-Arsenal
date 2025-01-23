@@ -1,6 +1,8 @@
 # Thor's Arsenal
 
-Thor's Arsenal is a Eurorack module that fits into a 3U x 14HP slot. It features 8 programmable outputs and 6 programmable inputs. The front-panel user controls consist of a 128×64 pixel 2-color OLED display, a rotary encoder for adjusting parameters and a button for each trigger and output.
+Greenface Labs' **Thor's Arsenal** is a Eurorack module that fits into a 3U x 14HP slot. It features 8 programmable outputs and 6 programmable inputs. The front-panel user controls consist of a 128×64 pixel 2-color OLED display, a rotary encoder for adjusting parameters and a button for each trigger and output.
+
+Page: https://www.greenfacelabs.com/thors-arsenal/
 
 # main_board, panel
 
@@ -43,3 +45,14 @@ data: C:\Users\shann\AppData\Local\Arduino15
 user: C:\Users\shann\Documents\Eurorack\Thors_Arsenal\code\src
 
 see https://arduino.github.io/arduino-cli/1.1/ for more info.
+
+The code supports both Thor's Arsenal and the Bonkulator. Also several portions are shared with Fafnir's Fire. You'll see this in #ifdef statements found in the code. Because Thor's Arsenal and the discontinued Bonkulator are so similar, they share the same code base. This is the reason for the two "out" directories.
+
+## Directory Structure
+
+- **bonk_out** contains output of latest Bonkulator compile
+  -- **\_release** contains latest Bonkulator release
+- **thors_out** contains output of latest Thor's Arsenal compile
+  -- **\_release** contains latest Thor's Arsenal release
+- **releases** contains all of the software releases in zipped form.
+- **src** contains the source code
