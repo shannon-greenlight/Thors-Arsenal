@@ -4053,7 +4053,7 @@
 		(fields_autoplaced yes)
 		(uuid "940e49c2-4231-4b6f-8f42-95d19136d244")
 		(property "Reference" "RV9"
-			(at 54.991 26.5235 0)
+			(at 54.991 26.2198 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4062,7 +4062,7 @@
 			)
 		)
 		(property "Value" "10K"
-			(at 54.991 29.2986 0)
+			(at 54.991 28.6441 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4070,7 +4070,7 @@
 				(justify right)
 			)
 		)
-		(property "Footprint" "Potentiometer_SMD:Potentiometer_Bourns_3224W_Vertical"
+		(property "Footprint" "greenface:Potentiometer_Bourns_3224W_Vertical"
 			(at 53.34 27.432 0)
 			(effects
 				(font

@@ -4058,7 +4058,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "sputterizer:D_SOD-323"
+		(property "Footprint" "greenface:D_SOD-323"
 			(at 85.725 158.115 0)
 			(effects
 				(font
@@ -4145,7 +4145,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "sputterizer:D_SOD-323"
+		(property "Footprint" "greenface:D_SOD-323"
 			(at 84.455 88.9 0)
 			(effects
 				(font
@@ -4554,7 +4554,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "sputterizer:D_SOD-323"
+		(property "Footprint" "greenface:D_SOD-323"
 			(at 85.725 147.32 0)
 			(effects
 				(font
@@ -5855,7 +5855,7 @@
 				(hide yes)
 			)
 		)
-		(property "Footprint" "audio_jacks:Jack_3.5mm_QingPu_WQP-PJ398SM_Vertical"
+		(property "Footprint" "greenface:Jack_3.5mm_QingPu_WQP-PJ398SM_Vertical"
 			(at 66.04 38.1 0)
 			(effects
 				(font
@@ -6392,7 +6392,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "sputterizer:D_SOD-323"
+		(property "Footprint" "greenface:D_SOD-323"
 			(at 84.455 78.105 0)
 			(effects
 				(font
@@ -7078,7 +7078,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "sputterizer:D_SOD-323"
+		(property "Footprint" "greenface:D_SOD-323"
 			(at 146.05 122.555 0)
 			(effects
 				(font
@@ -7883,7 +7883,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "sputterizer:D_SOD-323"
+		(property "Footprint" "greenface:D_SOD-323"
 			(at 146.05 53.34 0)
 			(effects
 				(font
@@ -8509,7 +8509,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "sputterizer:D_SOD-323"
+		(property "Footprint" "greenface:D_SOD-323"
 			(at 146.05 41.91 0)
 			(effects
 				(font
@@ -8681,7 +8681,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "sputterizer:D_SOD-323"
+		(property "Footprint" "greenface:D_SOD-323"
 			(at 146.05 111.125 0)
 			(effects
 				(font
@@ -9299,7 +9299,7 @@
 				(hide yes)
 			)
 		)
-		(property "Footprint" "audio_jacks:Jack_3.5mm_QingPu_WQP-PJ398SM_Vertical"
+		(property "Footprint" "greenface:Jack_3.5mm_QingPu_WQP-PJ398SM_Vertical"
 			(at 66.04 107.315 0)
 			(effects
 				(font

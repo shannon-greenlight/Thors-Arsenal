@@ -3853,7 +3853,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "sputterizer:D_SOD-323"
+		(property "Footprint" "greenface:D_SOD-323"
 			(at 149.86 92.71 0)
 			(effects
 				(font
@@ -4651,7 +4651,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "sputterizer:D_SOD-323"
+		(property "Footprint" "greenface:D_SOD-323"
 			(at 80.01 45.085 0)
 			(effects
 				(font
@@ -4738,7 +4738,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "sputterizer:D_SOD-323"
+		(property "Footprint" "greenface:D_SOD-323"
 			(at 80.01 52.705 0)
 			(effects
 				(font
@@ -4824,7 +4824,7 @@
 				(hide yes)
 			)
 		)
-		(property "Footprint" "audio_jacks:Jack_3.5mm_QingPu_WQP-PJ398SM_Vertical"
+		(property "Footprint" "greenface:Jack_3.5mm_QingPu_WQP-PJ398SM_Vertical"
 			(at 127 96.52 0)
 			(effects
 				(font
@@ -5120,7 +5120,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "sputterizer:D_SOD-323"
+		(property "Footprint" "greenface:D_SOD-323"
 			(at 80.01 101.6 0)
 			(effects
 				(font
@@ -5808,7 +5808,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "sputterizer:D_SOD-323"
+		(property "Footprint" "greenface:D_SOD-323"
 			(at 149.86 100.33 0)
 			(effects
 				(font
@@ -7271,7 +7271,7 @@
 				(hide yes)
 			)
 		)
-		(property "Footprint" "audio_jacks:Jack_3.5mm_QingPu_WQP-PJ398SM_Vertical"
+		(property "Footprint" "greenface:Jack_3.5mm_QingPu_WQP-PJ398SM_Vertical"
 			(at 127 49.53 0)
 			(effects
 				(font
@@ -7687,7 +7687,7 @@
 				)
 			)
 		)
-		(property "Footprint" "sputterizer:LED_0404"
+		(property "Footprint" "greenface:LED_0404"
 			(at 155.194 153.67 0)
 			(effects
 				(font
@@ -8217,7 +8217,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "sputterizer:D_SOD-323"
+		(property "Footprint" "greenface:D_SOD-323"
 			(at 149.86 53.34 0)
 			(effects
 				(font
@@ -8533,7 +8533,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "sputterizer:D_SOD-323"
+		(property "Footprint" "greenface:D_SOD-323"
 			(at 149.86 45.72 0)
 			(effects
 				(font
@@ -8989,7 +8989,7 @@
 				(hide yes)
 			)
 		)
-		(property "Footprint" "audio_jacks:Jack_3.5mm_QingPu_WQP-PJ398SM_Vertical"
+		(property "Footprint" "greenface:Jack_3.5mm_QingPu_WQP-PJ398SM_Vertical"
 			(at 57.15 48.895 0)
 			(effects
 				(font
@@ -9156,7 +9156,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "sputterizer:D_SOD-323"
+		(property "Footprint" "greenface:D_SOD-323"
 			(at 80.01 93.98 0)
 			(effects
 				(font
@@ -9413,7 +9413,7 @@
 				(hide yes)
 			)
 		)
-		(property "Footprint" "audio_jacks:Jack_3.5mm_QingPu_WQP-PJ398SM_Vertical"
+		(property "Footprint" "greenface:Jack_3.5mm_QingPu_WQP-PJ398SM_Vertical"
 			(at 57.15 97.79 0)
 			(effects
 				(font

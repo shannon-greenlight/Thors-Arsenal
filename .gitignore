@@ -62,6 +62,11 @@ spice/*.raw
 *.bak
 *.log
 *.sch-bak
+*.lck
+
+*.bat
+*.csv
+
 *-cache.lib
 _autosave*
 \#auto_saved_files#

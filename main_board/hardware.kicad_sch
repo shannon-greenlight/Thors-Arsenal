@@ -871,7 +871,7 @@
 				(hide yes)
 			)
 		)
-		(property "URL" "https://www.amazon.com/gp/product/B072Q2X2LL/"
+		(property "Other" "https://www.amazon.com/gp/product/B072Q2X2LL/"
 			(at 40.132 156.21 0)
 			(effects
 				(font
@@ -1944,7 +1944,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "sputterizer:MountingHole_2.5mm-No-Margin"
+		(property "Footprint" "greenface:MountingHole_2.5mm-No-Margin"
 			(at 19.05 45.085 0)
 			(effects
 				(font
@@ -2524,7 +2524,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "sputterizer:MountingHole_2.5mm-No-Margin"
+		(property "Footprint" "greenface:MountingHole_2.5mm-No-Margin"
 			(at 19.05 40.005 0)
 			(effects
 				(font

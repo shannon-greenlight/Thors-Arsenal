@@ -1,40 +1,45 @@
-# Bonkulator
+# Thor's Arsenal
 
-The Bonkulator is a Eurorack module that fits into a 3U x 14HP slot. It features 8 programmable outputs and 6 programmable inputs. The front-panel user controls consist of a 128×64 pixel 2-color OLED display, a rotary encoder for adjusting parameters and a button for each trigger and output.
+Thor's Arsenal is a Eurorack module that fits into a 3U x 14HP slot. It features 8 programmable outputs and 6 programmable inputs. The front-panel user controls consist of a 128×64 pixel 2-color OLED display, a rotary encoder for adjusting parameters and a button for each trigger and output.
 
 # main_board, panel
 
-These repos contain the materials needed to construct the Bonkulator main board and the front panel.
-The files are for KiCAD 6.0. Go to the Greenlight Kicad repo to get the needed libraries.
-The gerber files work with JLCPC and will most likely work with other board manufacturers.
+These repos contain the materials needed to construct the Thor's Arsenal main board and the front panel.
+The files are for KiCAD 8.0. Go to the Greenlight KiCAD repo to get the required libraries.
 
-Assembly instructions are in main_board\fab\bonkulator_assembly.docx.
+Assembly instructions are in main_board\fab\thors_assembly.docx.
 
-When using the JLCPCB assembly service, the BOM is split into 3 parts.
+When using the JLCPCB assembly service, the BOM is split into 4 parts.
+Use the KiCAD command "generate legacy bill of materials", then the batch file "generate_boms.bat" to update these files if changes to the BOM occur.
 
-- bom/lcsc/bonkulator_bom.xlsx : The parts to be assembled by JLCPCB
-- bom/digi-key/bonkulator_bom.xlsx : The remaining parts to be assembled by user
-- bom/other/other_bom.xlsx : The parts that must be bought from sources other than JLCPCB and Digi-Key
+- bom/lcsc/main_board_bom.csv : The parts to be assembled by JLCPCB
+- bom/digi-key/main_board_split.csv : The remaining parts to be assembled by user
+- bom/digi-key/main_board_full.csv : The parts to be assembled by user if starting from a bare board.
+- bom/other/main_board_other.csv : The parts that must be bought from sources other than JLCPCB and Digi-Key
 
-Also, when an assembly service is used, a component position file is required. This file's path is: fab/Bonkulator_cpl.xlsx
+The gerber files work with JLCPC and will most likely work with other board manufacturers. JLCPCB requires these files:
 
-notes: The bom and cpl files are auto-generated from the csv BOM files produced by KiCAD. You will need to refresh the data when changes to the schematic that affect the BOM or changes to the board layout occur.
-If they exist, the extra parts and additional data fields that appear on the schematic help to produce the different BOM files. They must be maintained for these BOMs to come out right.
+- fab/thors_arsenal_gerbers.zip (needed for bare boards and assembly)
+- fab/thors_arsenal_cpl.xlsx (component position file required for assembly)
+- bom/main_board_bom.csv (bom required for assembly)
+
+notes: thors_arsenal_cpl.xlsx is auto-generated from the XML BOM file produced by KiCAD using "legacy bill of materials". You will need to refresh the data when changes to the schematic that affect the BOM or changes to the board layout occur.
+
+If changes to the layout occur, use the batch file "/fab/zip_berbers.bat" to package the gerber files for uploading to JLCPCB.
 
 # code
 
-This repository contains the elements needed to build code for the Bonkulator.
+This repository contains the elements needed to build code for Thor's Arsenal.
 
-# BonkDaddy
+Use make.bat or make.sh to compile the code. You'll need to install the arduino IDE to get the base code installed on your computer. Install the board arduino:mbed_nano:nanorp2040connect
 
-The Bonk Daddy is an addition to the Bonkulator that provides these benefits:
+Thor's Arsenal uses arduino-cli.exe to compile.
+You'll need to make sure the arduino-cli config is correct. In particular you need to set the directories.data and directitories.user variables in the configuration.
+The data dir points to the AppData folder that was just installed by the Arduino IDE.
+The user dir is your project folder.
+Here is an example from a config dump:
+directories:
+data: C:\Users\shann\AppData\Local\Arduino15
+user: C:\Users\shann\Documents\Eurorack\Thors_Arsenal\code\src
 
-- Front Panel USB access
-- Power sensing shuts off USB to Arduino when synth power is off
-- Reset switch
-- USB Power indicator
-- Trig In indicators
-- Boot Loader indicator
-- Extremely useful to those who use Terminal Remote mode
-
-The folder structure of the Bonk Daddy is similar to the Bonkulator Hardware folder, main_board. Currently there is no support for assembly service.
+see https://arduino.github.io/arduino-cli/1.1/ for more info.
