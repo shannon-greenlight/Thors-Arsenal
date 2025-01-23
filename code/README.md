@@ -1,8 +1,9 @@
-# Bonkulator-Code
+# Code
 
-This repository contains the elements needed to build code for the Bonkulator.
-The code is for the Arduino RP2040 Connect and is found in the code/Bonkulator folder. Make sure to get the required libraries from the Arduino-Libs repo.
+This repository contains the elements needed to build code for Thor's Arsenal.
 The code package is designed to be stand-alone and work with any IDE. You don't need the Arduino IDE. However, it will work with the Arduino IDE if you want to use it.
+However, you must first install the base board, arduino:mbed_nano:nanorp2040connect. The best way to do this is to install the Arduino IDE and use it to install the board.
+Once 
 
 Build files are provided for Windows and Mac.
 
