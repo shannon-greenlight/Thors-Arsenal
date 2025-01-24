@@ -1,9 +1,9 @@
 @echo off
 set zipper=.\code\7z
 
-if not defined THORS_RELEASE_NUM goto ask
+if not defined THORS_HARDWARE_RELEASE_NUM goto ask
 
-echo The current release number is: %THORS_RELEASE_NUM%
+echo The current release number is: %THORS_HARDWARE_RELEASE_NUM%
 
 :ask
 set /p release_num=What's the NEW release number? 
@@ -11,7 +11,7 @@ set /p release_num=What's the NEW release number?
 set /p ans=That's %release_num%, eh? (y/n)
 
 if %ans% == n goto end
-setx THORS_RELEASE_NUM %release_num%
+setx THORS_HARDWARE_RELEASE_NUM %release_num%
 
 set zipfile=.\hardware_releases\release_%release_num%.zip
 

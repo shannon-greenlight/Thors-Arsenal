@@ -2,6 +2,7 @@
 set src_dir=src
 set file_path=.\%src_dir%\version_num.h
 set file_path2=.\%src_dir%\is_release.h
+set zipper=.\7z
 
 echo This will set the %src_dir% software release number in %file_path%
 
@@ -54,16 +55,18 @@ echo #define IS_RELEASE false >> %file_path2%
 echo. >> %file_path2%
 echo #endif >> %file_path2%
 
-.\7z a -r .\releases\release_%release_num%.zip bonk_out\release -x!updater.sh
-.\7z a -r .\releases\release_%release_num%.zip thors_out\release -x!updater.sh
+set release_folder=..\software_releases
+
+%zipper% a -r %release_folder%\release_%release_num%.zip bonk_out\release -x!updater.sh
+%zipper% a -r %release_folder%\release_%release_num%.zip thors_out\release -x!updater.sh
 
 REM Create a tar archive using 7-Zip for the Mac/Linux users
-".\7z" a -ttar archive.tar ./bonk_out/release/* -x!update.bat
-".\7z" a -ttar archive.tar ./thors_out/release/* -x!update.bat
+%zipper% a -ttar archive.tar ./bonk_out/release/* -x!update.bat
+%zipper% a -ttar archive.tar ./thors_out/release/* -x!update.bat
 
 REM Compress the tar archive into .gz format using 7-Zip
-".\7z" a -tgzip .\archive.tar.gz ./archive.tar
-".\7z" a .\releases\release_%release_num%.tar.zip ./archive.tar.gz
+%zipper% a -tgzip .\archive.tar.gz ./archive.tar
+%zipper% a %release_folder%\release_%release_num%.tar.zip ./archive.tar.gz
 
 REM Delete the intermediate .tar file
 del archive.tar
