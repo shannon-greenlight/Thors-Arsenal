@@ -48,6 +48,7 @@ Temporary Items
 
 *.zip
 !code/releases/*.zip
+!hardware_releases/*.zip
 
 *.kicad_pcb-bak
 *.kicad_sch-bak
